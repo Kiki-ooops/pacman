@@ -96,15 +96,15 @@ public class FrightenedBehaviour implements IGhostBehaviour {
         int maxDist = 0;
 
         for (int[] direction : availableDirection) {
-            int[] temp_pos = {currentPos[0], currentPos[1]};
-            temp_pos[0] += direction[0];
-            temp_pos[1] += direction[1];
+            int[] tempPos = {currentPos[0], currentPos[1]};
+            tempPos[0] += direction[0];
+            tempPos[1] += direction[1];
 
-            int temp_dist = DistCalculation.getManhattanDist(temp_pos, pacMan.getGrid());
+            int tempDist = DistCalculation.getManhattanDist(tempPos, pacMan.getGrid());
             // choose a direction with larger manhattan dist
             // or randomly pick a direction with the same manhattan dist
-            if (temp_dist > maxDist) {
-                maxDist = temp_dist;
+            if (tempDist > maxDist) {
+                maxDist = tempDist;
                 maxDistDirection = direction;
             }
 

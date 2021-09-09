@@ -89,6 +89,12 @@ public class DistCalculation {
         return modifiedMaze;
     }
 
+    /**
+     *
+     * @param mazeMap maze map
+     * @param pacMan pacman
+     * @return distance map
+     */
     public static int[][] getDistMap(final MazeMap mazeMap, final PacMan pacMan) {
         distanceMap = getModifiedMaze(mazeMap);
         int[] currentPos = pacMan.getGrid();

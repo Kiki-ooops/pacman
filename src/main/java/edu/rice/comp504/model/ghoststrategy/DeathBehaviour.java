@@ -27,6 +27,14 @@ public class DeathBehaviour implements IGhostBehaviour {
         }
     }
 
+    /**
+     * DeathBehaviour class constructor
+     *
+     * @param startGrid starting grid location
+     * @param mazeMap maze map
+     * @param ghost ghost object
+     * @param pacMan pacman object
+     */
     public DeathBehaviour(int[] startGrid, int[][] mazeMap, Ghost ghost, PacMan pacMan) {
         this.pacMan = pacMan;
         int[] dx = {-1, 0, 1, 0};
