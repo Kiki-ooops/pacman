@@ -1,2 +1,3 @@
-Game-tofu
-https://pacman-team-tofu.herokuapp.com/
+Pac-Man Game
+
+https://washu-pacman.herokuapp.com/

@@ -1,1 +1,1 @@
-web: java -jar ./target/hw6-1.0-SNAPSHOT-jar-with-dependencies.jar
+web: java -jar ./target/pacman-1.0-SNAPSHOT-jar-with-dependencies.jar
