@@ -5,7 +5,7 @@ import com.washu.pacman.model.ghoststrategy.CyanChaseBehaviour;
 import com.washu.pacman.model.ghoststrategy.OrangeChaseBehaviour;
 import com.washu.pacman.model.ghoststrategy.PinkChaseBehaviour;
 import com.washu.pacman.model.ghoststrategy.RedChaseBehaviour;
-import edu.rice.comp504.model.ghoststrategy.*;
+import com.washu.pacman.model.ghoststrategy.*;
 import com.washu.pacman.model.unit.Ghost;
 import com.washu.pacman.model.unit.PacMan;
 

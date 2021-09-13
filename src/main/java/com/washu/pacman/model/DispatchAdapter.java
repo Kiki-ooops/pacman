@@ -8,7 +8,7 @@ import com.washu.pacman.model.ghoststrategy.RedChaseBehaviour;
 import com.washu.pacman.model.unit.Ghost;
 import com.washu.pacman.model.unit.PacMan;
 import com.washu.pacman.model.util.Constants;
-import edu.rice.comp504.model.ghoststrategy.*;
+import com.washu.pacman.model.ghoststrategy.*;
 import com.washu.pacman.model.command.SwitchDirectionCmd;
 
 import java.awt.*;

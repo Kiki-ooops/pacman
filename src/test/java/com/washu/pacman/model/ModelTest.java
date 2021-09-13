@@ -72,25 +72,25 @@ public class ModelTest extends TestCase {
         PacMan pacMan = (PacMan) da.getPcs().getPropertyChangeListeners(PACMAN)[0];
         assertEquals("the position of the pacMan should be (384, 256)", new Point(384, 256), pacMan.getLoc());
         assertEquals("the red ghost position should be (192, 232)", new Point(192, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[0]).getLoc());
-        assertEquals("the pink ghost position should be (240, 208)", new Point(240, 208), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
-        assertEquals("the cyan ghost position should be (240, 240)", new Point(240, 240), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
-        assertEquals("the orange ghost position should be (240, 272)", new Point(240, 272), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
+        assertEquals("the pink ghost position should be (240, 200)", new Point(240, 200), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
+        assertEquals("the cyan ghost position should be (240, 232)", new Point(240, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
+        assertEquals("the orange ghost position should be (240, 264)", new Point(240, 264), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
 
 
         da.updateGame();
         assertNotSame("the position of the pacMan should not be (384, 256)", new Point(384, 256), pacMan.getLoc());
         assertNotSame("the red ghost position should be (192, 232)", new Point(192, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[0]).getLoc());
-        assertEquals("the pink ghost position should be (240, 208)", new Point(240, 208), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
-        assertEquals("the cyan ghost position should be (240, 240)", new Point(240, 240), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
-        assertEquals("the orange ghost position should be (240, 272)", new Point(240, 272), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
+        assertEquals("the pink ghost position should be (240, 200)", new Point(240, 200), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
+        assertEquals("the cyan ghost position should be (240, 232)", new Point(240, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
+        assertEquals("the orange ghost position should be (240, 264)", new Point(240, 264), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
 
         da.resetGame();
         pacMan = (PacMan) da.getPcs().getPropertyChangeListeners(PACMAN)[0];
         assertEquals("the position of the pacMan should be (384, 256)", new Point(384, 256), pacMan.getLoc());
         assertEquals("the red ghost position should be (192, 232)", new Point(192, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[0]).getLoc());
-        assertEquals("the pink ghost position should be (240, 208)", new Point(240, 208), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
-        assertEquals("the cyan ghost position should be (240, 240)", new Point(240, 240), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
-        assertEquals("the orange ghost position should be (240, 272)", new Point(240, 272), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
+        assertEquals("the pink ghost position should be (240, 200)", new Point(240, 200), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
+        assertEquals("the cyan ghost position should be (240, 232)", new Point(240, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
+        assertEquals("the orange ghost position should be (240, 264)", new Point(240, 264), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
 
         GameInfo.getInstance().setDots(0);
 
@@ -98,9 +98,9 @@ public class ModelTest extends TestCase {
         pacMan = (PacMan) da.getPcs().getPropertyChangeListeners(PACMAN)[0];
         assertEquals("the position of the pacMan should be (384, 256)", new Point(384, 256), pacMan.getLoc());
         assertEquals("the red ghost position should be (192, 232)", new Point(192, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[0]).getLoc());
-        assertEquals("the pink ghost position should be (240, 208)", new Point(240, 208), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
-        assertEquals("the cyan ghost position should be (240, 240)", new Point(240, 240), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
-        assertEquals("the orange ghost position should be (240, 272)", new Point(240, 272), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
+        assertEquals("the pink ghost position should be (240, 200)", new Point(240, 200), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[1]).getLoc());
+        assertEquals("the cyan ghost position should be (240, 232)", new Point(240, 232), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[2]).getLoc());
+        assertEquals("the orange ghost position should be (240, 264)", new Point(240, 264), ((Ghost)da.getPcs().getPropertyChangeListeners(GHOSTS)[3]).getLoc());
 
     }
 
